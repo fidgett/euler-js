@@ -25,8 +25,7 @@ for (let i = 1; i <= maxNumber; i++) {
 }
 
 if (maxPalindrome === answer) {
-  console.log('success', maxPalindrome);
+  console.info('success', maxPalindrome);
 } else {
-  console.log('error', maxPalindrome);
+  console.error('error', maxPalindrome);
 }
-
